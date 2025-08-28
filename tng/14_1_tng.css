@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+/* 전체 박스 */
+
+.container {
+  border: 1px solid #000;
+  margin: 0 auto;
+  max-width: 600px;  
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.align-cneter-flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* 컨테이너 박스 */
+
+.print-box { 
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  border: 1px solid #000;
+  width: 300px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.toggle-line-through {
+  text-decoration: line-through;
+}
